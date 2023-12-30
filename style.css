@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for readability */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
